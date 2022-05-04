@@ -1,0 +1,23 @@
+@each $name, $prop in (m: margin, p: padding) {
+  @each $size, $length in $spacers {
+    .#{$name}-#{$size} {
+      #{$prop}: $length !important;
+    }
+    .#{$name}t-#{$size},
+    .#{$name}y-#{$size} {
+      #{$prop}-top: $length !important;
+    }
+    .#{$name}x-#{$size},
+    .#{$name}r-#{$size} {
+      #{$prop}-right: $length !important;
+    }
+    .#{$name}y-#{$size},
+    .#{$name}b-#{$size} {
+      #{$prop}-bottom: $length !important;
+    }
+    .#{$name}x-#{$size},
+    .#{$name}l-#{$size} {
+      #{$prop}-left: $length !important;
+    }
+  }
+}

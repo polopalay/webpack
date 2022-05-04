@@ -1,0 +1,6 @@
+:export {
+  color:red($color: #000000);
+  @each $key, $value in $colors {
+    $key: $value;
+  }
+}

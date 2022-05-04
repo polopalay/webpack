@@ -1,0 +1,16 @@
+$spacer: 1rem !default;
+$spacers: ( 0: 0, 1: ( $spacer * 0.25,), 2: ( $spacer * 0.5,), 3: $spacer, 4: ( $spacer * 1.5,), 5: ( $spacer * 3,), auto: auto,);
+
+$sizes: ( 25: 25%, 50: 50%, 75: 75%, 100: 100%, auto: auto,);
+
+$fsize: 1rem !default;
+$fsizes:( 1: ($fsize * 0.5), 2 : ($fsize * 1), 3: ($fsize * 1.5), 4: ($fsize * 2), 5: ($fsize * 3));
+
+$colors: (
+  mute: #6c757d,
+  red: #f5222d,
+  orange: #fa8c16,
+  green: #52c41a,
+  blue: #1890ff,
+);
+
